@@ -1,0 +1,152 @@
+<!--Home Page-->
+
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">
+	<title>The Fitness Gym</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+        <link rel = "icon" href =  "gymlogo.png" 
+        type = "image/x-icon">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+	.header{
+		background-color:#000000;
+		opacity:0.9;
+	}
+	body{
+		font-family: 'Baloo Bhai 2', cursive;
+		margin: 0px;
+		padding: 0px;
+		background: url('contact.jpg');
+		background-size: 100%;
+		color:white
+	}
+
+	.left{
+		display: inline-block;
+		
+		position: absolute;
+		left:34px;
+		top:20px;
+	
+	}
+	
+	.left img{
+		width: 75px;
+		filter: invert(100%);
+		margin:0px 26px;
+	}
+
+	.mid{
+		display: block;
+		width:40%;
+		top:20px;
+		margin: 15px auto;
+			
+	}
+	.right{
+		position: absolute;
+		right:34px;
+		top:20px;
+		display: inline-block;
+		
+		padding: 20px 0px;
+	}
+
+	.btn{
+		font-family: 'Baloo Bhai 2', cursive;
+		cursor: pointer;
+	}
+	.btn:hover{
+		background-color:#d5c6db;
+	}	
+	
+	.navbar{
+		display: inline-block;
+	}
+
+	.navbar li{
+		display: inline-block;
+		color: #ffffff;
+		padding: 10px 8px;
+	}
+
+	.navbar li a{
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	.navbar li a:hover, .navbar li a:active{
+		color: #d5c6db;
+		text-decoration: underline;
+	}
+	
+	ul{
+		padding-inline-start: 10px;
+	}
+
+	.container{
+		position: absolute;
+		right:34px;
+		border:20px solid;
+		margin: 21px 25px;
+		padding:65px 55px;
+		width:33%;
+		border-radius: 17px;
+		background-color:#000000;
+		opacity:0.7;
+	}
+	
+
+</style>
+
+</head>
+<body>
+	<header class="header">
+		
+		<!-- Left logo box-->
+		<div class="left">
+		<img src="gymlogo.png" alt="">
+			<div style="text-align:center;line-height: 44%;">
+				The Fitness Gym
+			</div>
+		</div>
+
+		<!-- Mid navbar-->
+		<div class="mid">
+
+		<ul class="navbar">
+		<li><a href="index.html" c>Home </a></li>
+     		<li><a href="About.html">About Us</a></li>
+      		<li><a href="service.html">Service</a></li>
+		<li><a href="product.html">Product</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+
+		</div>
+
+
+		<!-- Right buttons-->
+		<div class="right">
+		<nav class="navbar navbar-light bg-light">
+ 		<form class="form-inline">
+    			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    			<button class="btn" type="submit">Search</button>
+  		</form>
+		</nav>
+		</div>
+	
+	</header>
+	
+	<div style="margin: 100px; top: 400px; width:30%;">
+		Call Us on: +91 9898989898
+			<button class="btn" type="">Call Us Now</button><br>
+		Or Visit Us at: A-11 Santh Barod near Dena Bank Ahmedabad.
+			<button class="btn" type="submit">Open location on maps</button>
+	</div>
+</body>
+</html>
